@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40CCA7B41E7FBE4300F7E4C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CCA7B31E7FBE4300F7E4C2 /* AppDelegate.swift */; };
+		40CCA7B61E7FBE4300F7E4C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CCA7B51E7FBE4300F7E4C2 /* ViewController.swift */; };
+		40CCA7B91E7FBE4300F7E4C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40CCA7B71E7FBE4300F7E4C2 /* Main.storyboard */; };
+		40CCA7BC1E7FBE4300F7E4C2 /* MinutesTaker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40CCA7BA1E7FBE4300F7E4C2 /* MinutesTaker.xcdatamodeld */; };
+		40CCA7BE1E7FBE4300F7E4C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40CCA7BD1E7FBE4300F7E4C2 /* Assets.xcassets */; };
+		40CCA7C11E7FBE4300F7E4C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40CCA7BF1E7FBE4300F7E4C2 /* LaunchScreen.storyboard */; };
+		40CCA7CC1E7FBE4300F7E4C2 /* MinutesTakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CCA7CB1E7FBE4300F7E4C2 /* MinutesTakerTests.swift */; };
+		40CCA7D71E7FBE4300F7E4C2 /* MinutesTakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CCA7D61E7FBE4300F7E4C2 /* MinutesTakerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40CCA7C81E7FBE4300F7E4C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40CCA7A81E7FBE4300F7E4C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40CCA7AF1E7FBE4300F7E4C2;
+			remoteInfo = MinutesTaker;
+		};
+		40CCA7D31E7FBE4300F7E4C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40CCA7A81E7FBE4300F7E4C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40CCA7AF1E7FBE4300F7E4C2;
+			remoteInfo = MinutesTaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40CCA7B01E7FBE4300F7E4C2 /* MinutesTaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinutesTaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40CCA7B31E7FBE4300F7E4C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40CCA7B51E7FBE4300F7E4C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40CCA7B81E7FBE4300F7E4C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40CCA7BB1E7FBE4300F7E4C2 /* MinutesTaker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MinutesTaker.xcdatamodel; sourceTree = "<group>"; };
+		40CCA7BD1E7FBE4300F7E4C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40CCA7C01E7FBE4300F7E4C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40CCA7C21E7FBE4300F7E4C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40CCA7C71E7FBE4300F7E4C2 /* MinutesTakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinutesTakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40CCA7CB1E7FBE4300F7E4C2 /* MinutesTakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinutesTakerTests.swift; sourceTree = "<group>"; };
+		40CCA7CD1E7FBE4300F7E4C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40CCA7D21E7FBE4300F7E4C2 /* MinutesTakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinutesTakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40CCA7D61E7FBE4300F7E4C2 /* MinutesTakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinutesTakerUITests.swift; sourceTree = "<group>"; };
+		40CCA7D81E7FBE4300F7E4C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40CCA7AD1E7FBE4300F7E4C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40CCA7C41E7FBE4300F7E4C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40CCA7CF1E7FBE4300F7E4C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40CCA7A71E7FBE4300F7E4C2 = {
+			isa = PBXGroup;
+			children = (
+				40CCA7B21E7FBE4300F7E4C2 /* MinutesTaker */,
+				40CCA7CA1E7FBE4300F7E4C2 /* MinutesTakerTests */,
+				40CCA7D51E7FBE4300F7E4C2 /* MinutesTakerUITests */,
+				40CCA7B11E7FBE4300F7E4C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40CCA7B11E7FBE4300F7E4C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40CCA7B01E7FBE4300F7E4C2 /* MinutesTaker.app */,
+				40CCA7C71E7FBE4300F7E4C2 /* MinutesTakerTests.xctest */,
+				40CCA7D21E7FBE4300F7E4C2 /* MinutesTakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40CCA7B21E7FBE4300F7E4C2 /* MinutesTaker */ = {
+			isa = PBXGroup;
+			children = (
+				40CCA7B31E7FBE4300F7E4C2 /* AppDelegate.swift */,
+				40CCA7B51E7FBE4300F7E4C2 /* ViewController.swift */,
+				40CCA7B71E7FBE4300F7E4C2 /* Main.storyboard */,
+				40CCA7BD1E7FBE4300F7E4C2 /* Assets.xcassets */,
+				40CCA7BF1E7FBE4300F7E4C2 /* LaunchScreen.storyboard */,
+				40CCA7C21E7FBE4300F7E4C2 /* Info.plist */,
+				40CCA7BA1E7FBE4300F7E4C2 /* MinutesTaker.xcdatamodeld */,
+			);
+			path = MinutesTaker;
+			sourceTree = "<group>";
+		};
+		40CCA7CA1E7FBE4300F7E4C2 /* MinutesTakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				40CCA7CB1E7FBE4300F7E4C2 /* MinutesTakerTests.swift */,
+				40CCA7CD1E7FBE4300F7E4C2 /* Info.plist */,
+			);
+			path = MinutesTakerTests;
+			sourceTree = "<group>";
+		};
+		40CCA7D51E7FBE4300F7E4C2 /* MinutesTakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40CCA7D61E7FBE4300F7E4C2 /* MinutesTakerUITests.swift */,
+				40CCA7D81E7FBE4300F7E4C2 /* Info.plist */,
+			);
+			path = MinutesTakerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40CCA7AF1E7FBE4300F7E4C2 /* MinutesTaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40CCA7DB1E7FBE4300F7E4C2 /* Build configuration list for PBXNativeTarget "MinutesTaker" */;
+			buildPhases = (
+				40CCA7AC1E7FBE4300F7E4C2 /* Sources */,
+				40CCA7AD1E7FBE4300F7E4C2 /* Frameworks */,
+				40CCA7AE1E7FBE4300F7E4C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MinutesTaker;
+			productName = MinutesTaker;
+			productReference = 40CCA7B01E7FBE4300F7E4C2 /* MinutesTaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40CCA7C61E7FBE4300F7E4C2 /* MinutesTakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40CCA7DE1E7FBE4300F7E4C2 /* Build configuration list for PBXNativeTarget "MinutesTakerTests" */;
+			buildPhases = (
+				40CCA7C31E7FBE4300F7E4C2 /* Sources */,
+				40CCA7C41E7FBE4300F7E4C2 /* Frameworks */,
+				40CCA7C51E7FBE4300F7E4C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40CCA7C91E7FBE4300F7E4C2 /* PBXTargetDependency */,
+			);
+			name = MinutesTakerTests;
+			productName = MinutesTakerTests;
+			productReference = 40CCA7C71E7FBE4300F7E4C2 /* MinutesTakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40CCA7D11E7FBE4300F7E4C2 /* MinutesTakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40CCA7E11E7FBE4300F7E4C2 /* Build configuration list for PBXNativeTarget "MinutesTakerUITests" */;
+			buildPhases = (
+				40CCA7CE1E7FBE4300F7E4C2 /* Sources */,
+				40CCA7CF1E7FBE4300F7E4C2 /* Frameworks */,
+				40CCA7D01E7FBE4300F7E4C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40CCA7D41E7FBE4300F7E4C2 /* PBXTargetDependency */,
+			);
+			name = MinutesTakerUITests;
+			productName = MinutesTakerUITests;
+			productReference = 40CCA7D21E7FBE4300F7E4C2 /* MinutesTakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40CCA7A81E7FBE4300F7E4C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Sharjah Cooperative Society";
+				TargetAttributes = {
+					40CCA7AF1E7FBE4300F7E4C2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KAU7C99GR4;
+						ProvisioningStyle = Automatic;
+					};
+					40CCA7C61E7FBE4300F7E4C2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KAU7C99GR4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 40CCA7AF1E7FBE4300F7E4C2;
+					};
+					40CCA7D11E7FBE4300F7E4C2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KAU7C99GR4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 40CCA7AF1E7FBE4300F7E4C2;
+					};
+				};
+			};
+			buildConfigurationList = 40CCA7AB1E7FBE4300F7E4C2 /* Build configuration list for PBXProject "MinutesTaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40CCA7A71E7FBE4300F7E4C2;
+			productRefGroup = 40CCA7B11E7FBE4300F7E4C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40CCA7AF1E7FBE4300F7E4C2 /* MinutesTaker */,
+				40CCA7C61E7FBE4300F7E4C2 /* MinutesTakerTests */,
+				40CCA7D11E7FBE4300F7E4C2 /* MinutesTakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40CCA7AE1E7FBE4300F7E4C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40CCA7C11E7FBE4300F7E4C2 /* LaunchScreen.storyboard in Resources */,
+				40CCA7BE1E7FBE4300F7E4C2 /* Assets.xcassets in Resources */,
+				40CCA7B91E7FBE4300F7E4C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40CCA7C51E7FBE4300F7E4C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40CCA7D01E7FBE4300F7E4C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40CCA7AC1E7FBE4300F7E4C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40CCA7BC1E7FBE4300F7E4C2 /* MinutesTaker.xcdatamodeld in Sources */,
+				40CCA7B61E7FBE4300F7E4C2 /* ViewController.swift in Sources */,
+				40CCA7B41E7FBE4300F7E4C2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40CCA7C31E7FBE4300F7E4C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40CCA7CC1E7FBE4300F7E4C2 /* MinutesTakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40CCA7CE1E7FBE4300F7E4C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40CCA7D71E7FBE4300F7E4C2 /* MinutesTakerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40CCA7C91E7FBE4300F7E4C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40CCA7AF1E7FBE4300F7E4C2 /* MinutesTaker */;
+			targetProxy = 40CCA7C81E7FBE4300F7E4C2 /* PBXContainerItemProxy */;
+		};
+		40CCA7D41E7FBE4300F7E4C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40CCA7AF1E7FBE4300F7E4C2 /* MinutesTaker */;
+			targetProxy = 40CCA7D31E7FBE4300F7E4C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40CCA7B71E7FBE4300F7E4C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40CCA7B81E7FBE4300F7E4C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40CCA7BF1E7FBE4300F7E4C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40CCA7C01E7FBE4300F7E4C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40CCA7D91E7FBE4300F7E4C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40CCA7DA1E7FBE4300F7E4C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40CCA7DC1E7FBE4300F7E4C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KAU7C99GR4;
+				INFOPLIST_FILE = MinutesTaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ae.shjcoop.MinutesTaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		40CCA7DD1E7FBE4300F7E4C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KAU7C99GR4;
+				INFOPLIST_FILE = MinutesTaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ae.shjcoop.MinutesTaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		40CCA7DF1E7FBE4300F7E4C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KAU7C99GR4;
+				INFOPLIST_FILE = MinutesTakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ae.shjcoop.MinutesTakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MinutesTaker.app/MinutesTaker";
+			};
+			name = Debug;
+		};
+		40CCA7E01E7FBE4300F7E4C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KAU7C99GR4;
+				INFOPLIST_FILE = MinutesTakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ae.shjcoop.MinutesTakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MinutesTaker.app/MinutesTaker";
+			};
+			name = Release;
+		};
+		40CCA7E21E7FBE4300F7E4C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = KAU7C99GR4;
+				INFOPLIST_FILE = MinutesTakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ae.shjcoop.MinutesTakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MinutesTaker;
+			};
+			name = Debug;
+		};
+		40CCA7E31E7FBE4300F7E4C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = KAU7C99GR4;
+				INFOPLIST_FILE = MinutesTakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ae.shjcoop.MinutesTakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MinutesTaker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40CCA7AB1E7FBE4300F7E4C2 /* Build configuration list for PBXProject "MinutesTaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40CCA7D91E7FBE4300F7E4C2 /* Debug */,
+				40CCA7DA1E7FBE4300F7E4C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40CCA7DB1E7FBE4300F7E4C2 /* Build configuration list for PBXNativeTarget "MinutesTaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40CCA7DC1E7FBE4300F7E4C2 /* Debug */,
+				40CCA7DD1E7FBE4300F7E4C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40CCA7DE1E7FBE4300F7E4C2 /* Build configuration list for PBXNativeTarget "MinutesTakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40CCA7DF1E7FBE4300F7E4C2 /* Debug */,
+				40CCA7E01E7FBE4300F7E4C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40CCA7E11E7FBE4300F7E4C2 /* Build configuration list for PBXNativeTarget "MinutesTakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40CCA7E21E7FBE4300F7E4C2 /* Debug */,
+				40CCA7E31E7FBE4300F7E4C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		40CCA7BA1E7FBE4300F7E4C2 /* MinutesTaker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				40CCA7BB1E7FBE4300F7E4C2 /* MinutesTaker.xcdatamodel */,
+			);
+			currentVersion = 40CCA7BB1E7FBE4300F7E4C2 /* MinutesTaker.xcdatamodel */;
+			path = MinutesTaker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 40CCA7A81E7FBE4300F7E4C2 /* Project object */;
+}
