@@ -7,14 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C0AA814FE0B8777069230C7 /* Pods_MinutesTaker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5CC2E91AFCAF2B71E9046D /* Pods_MinutesTaker.framework */; };
+		400E69261E88EBCE00F6AFA4 /* PDFViewLoaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400E69251E88EBCE00F6AFA4 /* PDFViewLoaderController.swift */; };
+		400F28851E812E8D00EDE057 /* PersistentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400F28841E812E8D00EDE057 /* PersistentManager.swift */; };
+		400F28871E8140AA00EDE057 /* MeetingTaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400F28861E8140AA00EDE057 /* MeetingTaker.swift */; };
+		402AF27A1E91A424007FC727 /* ActionItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402AF2781E91A424007FC727 /* ActionItemViewController.swift */; };
+		402AF27B1E91A424007FC727 /* ActionItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402AF2791E91A424007FC727 /* ActionItemCell.swift */; };
+		40369DA51E8BB493009D6327 /* AttendanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40369DA41E8BB493009D6327 /* AttendanceViewController.swift */; };
+		40369DA71E8BC0BD009D6327 /* AttendanceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40369DA61E8BC0BD009D6327 /* AttendanceCell.swift */; };
+		4037CB6A1EBF04BA0085EEAC /* Dubai-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4037CB691EBF04BA0085EEAC /* Dubai-Regular.ttf */; };
+		4037CB6C1EBF04C10085EEAC /* majalla.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4037CB6B1EBF04C10085EEAC /* majalla.ttf */; };
+		403BC5FE1EA7568500352976 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403BC5FD1EA7568500352976 /* MainViewController.swift */; };
+		404969B51E921D7F00D29411 /* pdfViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404969B41E921D7F00D29411 /* pdfViewer.swift */; };
+		404969B71E921DE900D29411 /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404969B61E921DE900D29411 /* ReviewViewController.swift */; };
+		404A7B8D1E892C92009BE70B /* CustomRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404A7B8C1E892C92009BE70B /* CustomRenderer.swift */; };
+		40628B031E938BB50043ED4D /* CloudPrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40628AFE1E938BB50043ED4D /* CloudPrinter.swift */; };
+		40628B041E938BB50043ED4D /* NetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40628B001E938BB50043ED4D /* NetworkReachability.swift */; };
+		40628B051E938BB50043ED4D /* Printer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40628B011E938BB50043ED4D /* Printer.swift */; };
+		40628B061E938BB50043ED4D /* PrinterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40628B021E938BB50043ED4D /* PrinterViewController.swift */; };
+		40628B0C1E938DE90043ED4D /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40628B0B1E938DE90043ED4D /* Extension.swift */; };
+		40628B0E1E939CA80043ED4D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40628B0D1E939CA80043ED4D /* GoogleService-Info.plist */; };
+		407E2E5E1EB884EE0072E681 /* DecoType-Naskh-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 407E2E5D1EB884EE0072E681 /* DecoType-Naskh-Regular.ttf */; };
+		408D0E2B1E90FAFE00745237 /* AgendaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408D0E2A1E90FAFE00745237 /* AgendaViewController.swift */; };
+		408D0E2E1E90FF4900745237 /* AgendaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408D0E2D1E90FF4900745237 /* AgendaCell.swift */; };
+		40ACBF5F1E92E02A008E0A89 /* PastMeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ACBF5E1E92E02A008E0A89 /* PastMeetingViewController.swift */; };
+		40ACBF621E92E062008E0A89 /* PastMeetingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ACBF611E92E062008E0A89 /* PastMeetingCell.swift */; };
+		40AF6D2F1E82432C00D4C424 /* MeetingCreatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AF6D2E1E82432C00D4C424 /* MeetingCreatorViewController.swift */; };
 		40CCA7B41E7FBE4300F7E4C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CCA7B31E7FBE4300F7E4C2 /* AppDelegate.swift */; };
-		40CCA7B61E7FBE4300F7E4C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CCA7B51E7FBE4300F7E4C2 /* ViewController.swift */; };
+		40CCA7B61E7FBE4300F7E4C2 /* SignatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CCA7B51E7FBE4300F7E4C2 /* SignatureViewController.swift */; };
 		40CCA7B91E7FBE4300F7E4C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40CCA7B71E7FBE4300F7E4C2 /* Main.storyboard */; };
 		40CCA7BC1E7FBE4300F7E4C2 /* MinutesTaker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40CCA7BA1E7FBE4300F7E4C2 /* MinutesTaker.xcdatamodeld */; };
 		40CCA7BE1E7FBE4300F7E4C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40CCA7BD1E7FBE4300F7E4C2 /* Assets.xcassets */; };
 		40CCA7C11E7FBE4300F7E4C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40CCA7BF1E7FBE4300F7E4C2 /* LaunchScreen.storyboard */; };
 		40CCA7CC1E7FBE4300F7E4C2 /* MinutesTakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CCA7CB1E7FBE4300F7E4C2 /* MinutesTakerTests.swift */; };
 		40CCA7D71E7FBE4300F7E4C2 /* MinutesTakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CCA7D61E7FBE4300F7E4C2 /* MinutesTakerUITests.swift */; };
+		40DB32491EB077C20027E148 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DB32481EB077C20027E148 /* PreviewViewController.swift */; };
+		40F9CAA81E878A1000AC6B2E /* Members.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F9CAA71E878A1000AC6B2E /* Members.swift */; };
+		40F9CAAA1E878D4800AC6B2E /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F9CAA91E878D4800AC6B2E /* Constant.swift */; };
+		40F9CAAC1E8795AB00AC6B2E /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F9CAAB1E8795AB00AC6B2E /* Report.swift */; };
+		40FC12C51E8CF20600053E43 /* PresentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FC12C41E8CF20600053E43 /* PresentCell.swift */; };
+		40FCE7F01E92F55E00C360A3 /* PendingMeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FCE7EE1E92F55E00C360A3 /* PendingMeetingViewController.swift */; };
+		40FCE7F11E92F55E00C360A3 /* PendingMeetingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FCE7EF1E92F55E00C360A3 /* PendingMeetingCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +68,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		400E69251E88EBCE00F6AFA4 /* PDFViewLoaderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewLoaderController.swift; sourceTree = "<group>"; };
+		400F28841E812E8D00EDE057 /* PersistentManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistentManager.swift; sourceTree = "<group>"; };
+		400F28861E8140AA00EDE057 /* MeetingTaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingTaker.swift; sourceTree = "<group>"; };
+		402AF2781E91A424007FC727 /* ActionItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionItemViewController.swift; sourceTree = "<group>"; };
+		402AF2791E91A424007FC727 /* ActionItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionItemCell.swift; sourceTree = "<group>"; };
+		40369DA41E8BB493009D6327 /* AttendanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttendanceViewController.swift; sourceTree = "<group>"; };
+		40369DA61E8BC0BD009D6327 /* AttendanceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttendanceCell.swift; sourceTree = "<group>"; };
+		4037CB691EBF04BA0085EEAC /* Dubai-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dubai-Regular.ttf"; sourceTree = "<group>"; };
+		4037CB6B1EBF04C10085EEAC /* majalla.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = majalla.ttf; sourceTree = "<group>"; };
+		403BC5FD1EA7568500352976 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		404969B41E921D7F00D29411 /* pdfViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pdfViewer.swift; sourceTree = "<group>"; };
+		404969B61E921DE900D29411 /* ReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		404A7B8C1E892C92009BE70B /* CustomRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomRenderer.swift; sourceTree = "<group>"; };
+		40628AFE1E938BB50043ED4D /* CloudPrinter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudPrinter.swift; sourceTree = "<group>"; };
+		40628B001E938BB50043ED4D /* NetworkReachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkReachability.swift; sourceTree = "<group>"; };
+		40628B011E938BB50043ED4D /* Printer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Printer.swift; sourceTree = "<group>"; };
+		40628B021E938BB50043ED4D /* PrinterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrinterViewController.swift; sourceTree = "<group>"; };
+		40628B071E938CF40043ED4D /* MinutesTaker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MinutesTaker-Bridging-Header.h"; sourceTree = "<group>"; };
+		40628B0B1E938DE90043ED4D /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		40628B0D1E939CA80043ED4D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		407E2E5D1EB884EE0072E681 /* DecoType-Naskh-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DecoType-Naskh-Regular.ttf"; sourceTree = "<group>"; };
+		408D0E2A1E90FAFE00745237 /* AgendaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgendaViewController.swift; sourceTree = "<group>"; };
+		408D0E2D1E90FF4900745237 /* AgendaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgendaCell.swift; sourceTree = "<group>"; };
+		40ACBF5E1E92E02A008E0A89 /* PastMeetingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PastMeetingViewController.swift; sourceTree = "<group>"; };
+		40ACBF611E92E062008E0A89 /* PastMeetingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PastMeetingCell.swift; sourceTree = "<group>"; };
+		40AF6D2E1E82432C00D4C424 /* MeetingCreatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingCreatorViewController.swift; sourceTree = "<group>"; };
 		40CCA7B01E7FBE4300F7E4C2 /* MinutesTaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinutesTaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40CCA7B31E7FBE4300F7E4C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		40CCA7B51E7FBE4300F7E4C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40CCA7B51E7FBE4300F7E4C2 /* SignatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignatureViewController.swift; path = MinutesTaker/SignatureViewController.swift; sourceTree = "<group>"; };
 		40CCA7B81E7FBE4300F7E4C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40CCA7BB1E7FBE4300F7E4C2 /* MinutesTaker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MinutesTaker.xcdatamodel; sourceTree = "<group>"; };
 		40CCA7BD1E7FBE4300F7E4C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +108,16 @@
 		40CCA7D21E7FBE4300F7E4C2 /* MinutesTakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinutesTakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40CCA7D61E7FBE4300F7E4C2 /* MinutesTakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinutesTakerUITests.swift; sourceTree = "<group>"; };
 		40CCA7D81E7FBE4300F7E4C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40DB32481EB077C20027E148 /* PreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		40F9CAA71E878A1000AC6B2E /* Members.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Members.swift; sourceTree = "<group>"; };
+		40F9CAA91E878D4800AC6B2E /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		40F9CAAB1E8795AB00AC6B2E /* Report.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
+		40FC12C41E8CF20600053E43 /* PresentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PresentCell.swift; path = MinutesTaker/PresentCell.swift; sourceTree = "<group>"; };
+		40FCE7EE1E92F55E00C360A3 /* PendingMeetingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PendingMeetingViewController.swift; sourceTree = "<group>"; };
+		40FCE7EF1E92F55E00C360A3 /* PendingMeetingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PendingMeetingCell.swift; sourceTree = "<group>"; };
+		4B5CC2E91AFCAF2B71E9046D /* Pods_MinutesTaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MinutesTaker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DC535A947F110D299928EF0 /* Pods-MinutesTaker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinutesTaker.release.xcconfig"; path = "Pods/Target Support Files/Pods-MinutesTaker/Pods-MinutesTaker.release.xcconfig"; sourceTree = "<group>"; };
+		F0EA00EA3288D43804893370 /* Pods-MinutesTaker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinutesTaker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MinutesTaker/Pods-MinutesTaker.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C0AA814FE0B8777069230C7 /* Pods_MinutesTaker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +146,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39A6BA075FD51E265A549B83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B5CC2E91AFCAF2B71E9046D /* Pods_MinutesTaker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		402AF27C1E91A42F007FC727 /* Action Items */ = {
+			isa = PBXGroup;
+			children = (
+				402AF2781E91A424007FC727 /* ActionItemViewController.swift */,
+				402AF2791E91A424007FC727 /* ActionItemCell.swift */,
+			);
+			name = "Action Items";
+			sourceTree = "<group>";
+		};
+		40628AFD1E938BAA0043ED4D /* Printer */ = {
+			isa = PBXGroup;
+			children = (
+				40628AFE1E938BB50043ED4D /* CloudPrinter.swift */,
+				40628B001E938BB50043ED4D /* NetworkReachability.swift */,
+				40628B011E938BB50043ED4D /* Printer.swift */,
+				40628B021E938BB50043ED4D /* PrinterViewController.swift */,
+			);
+			name = Printer;
+			sourceTree = "<group>";
+		};
+		408D0E2C1E90FB0900745237 /* Agenda */ = {
+			isa = PBXGroup;
+			children = (
+				408D0E2A1E90FAFE00745237 /* AgendaViewController.swift */,
+				408D0E2D1E90FF4900745237 /* AgendaCell.swift */,
+			);
+			name = Agenda;
+			sourceTree = "<group>";
+		};
+		40ACBF601E92E036008E0A89 /* PastMeetings */ = {
+			isa = PBXGroup;
+			children = (
+				40ACBF5E1E92E02A008E0A89 /* PastMeetingViewController.swift */,
+				40ACBF611E92E062008E0A89 /* PastMeetingCell.swift */,
+			);
+			name = PastMeetings;
+			sourceTree = "<group>";
+		};
+		40ACBF631E92E183008E0A89 /* PendingMeeting */ = {
+			isa = PBXGroup;
+			children = (
+				40FCE7EE1E92F55E00C360A3 /* PendingMeetingViewController.swift */,
+				40FCE7EF1E92F55E00C360A3 /* PendingMeetingCell.swift */,
+			);
+			name = PendingMeeting;
+			sourceTree = "<group>";
+		};
 		40CCA7A71E7FBE4300F7E4C2 = {
 			isa = PBXGroup;
 			children = (
+				4037CB691EBF04BA0085EEAC /* Dubai-Regular.ttf */,
 				40CCA7B21E7FBE4300F7E4C2 /* MinutesTaker */,
 				40CCA7CA1E7FBE4300F7E4C2 /* MinutesTakerTests */,
 				40CCA7D51E7FBE4300F7E4C2 /* MinutesTakerUITests */,
 				40CCA7B11E7FBE4300F7E4C2 /* Products */,
+				FBEF02797C652241D4C74F96 /* Pods */,
+				39A6BA075FD51E265A549B83 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +227,36 @@
 		40CCA7B21E7FBE4300F7E4C2 /* MinutesTaker */ = {
 			isa = PBXGroup;
 			children = (
+				4037CB6B1EBF04C10085EEAC /* majalla.ttf */,
+				407E2E5D1EB884EE0072E681 /* DecoType-Naskh-Regular.ttf */,
+				40DB32481EB077C20027E148 /* PreviewViewController.swift */,
+				40628B0D1E939CA80043ED4D /* GoogleService-Info.plist */,
+				40628B0B1E938DE90043ED4D /* Extension.swift */,
+				40ACBF631E92E183008E0A89 /* PendingMeeting */,
+				40ACBF601E92E036008E0A89 /* PastMeetings */,
+				402AF27C1E91A42F007FC727 /* Action Items */,
+				408D0E2C1E90FB0900745237 /* Agenda */,
+				40FC12C11E8CF1A300053E43 /* Signature */,
+				40FC12BE1E8CBDC200053E43 /* Attendance */,
 				40CCA7B31E7FBE4300F7E4C2 /* AppDelegate.swift */,
-				40CCA7B51E7FBE4300F7E4C2 /* ViewController.swift */,
+				400E69251E88EBCE00F6AFA4 /* PDFViewLoaderController.swift */,
+				40AF6D2E1E82432C00D4C424 /* MeetingCreatorViewController.swift */,
+				400F28861E8140AA00EDE057 /* MeetingTaker.swift */,
+				40628AFD1E938BAA0043ED4D /* Printer */,
+				40F9CAA91E878D4800AC6B2E /* Constant.swift */,
+				404969B61E921DE900D29411 /* ReviewViewController.swift */,
 				40CCA7B71E7FBE4300F7E4C2 /* Main.storyboard */,
+				403BC5FD1EA7568500352976 /* MainViewController.swift */,
 				40CCA7BD1E7FBE4300F7E4C2 /* Assets.xcassets */,
 				40CCA7BF1E7FBE4300F7E4C2 /* LaunchScreen.storyboard */,
 				40CCA7C21E7FBE4300F7E4C2 /* Info.plist */,
+				40F9CAA71E878A1000AC6B2E /* Members.swift */,
+				40F9CAAB1E8795AB00AC6B2E /* Report.swift */,
+				404A7B8C1E892C92009BE70B /* CustomRenderer.swift */,
 				40CCA7BA1E7FBE4300F7E4C2 /* MinutesTaker.xcdatamodeld */,
+				400F28841E812E8D00EDE057 /* PersistentManager.swift */,
+				404969B41E921D7F00D29411 /* pdfViewer.swift */,
+				40628B071E938CF40043ED4D /* MinutesTaker-Bridging-Header.h */,
 			);
 			path = MinutesTaker;
 			sourceTree = "<group>";
@@ -128,6 +279,34 @@
 			path = MinutesTakerUITests;
 			sourceTree = "<group>";
 		};
+		40FC12BE1E8CBDC200053E43 /* Attendance */ = {
+			isa = PBXGroup;
+			children = (
+				40369DA61E8BC0BD009D6327 /* AttendanceCell.swift */,
+				40369DA41E8BB493009D6327 /* AttendanceViewController.swift */,
+			);
+			name = Attendance;
+			sourceTree = "<group>";
+		};
+		40FC12C11E8CF1A300053E43 /* Signature */ = {
+			isa = PBXGroup;
+			children = (
+				40CCA7B51E7FBE4300F7E4C2 /* SignatureViewController.swift */,
+				40FC12C41E8CF20600053E43 /* PresentCell.swift */,
+			);
+			name = Signature;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		FBEF02797C652241D4C74F96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0EA00EA3288D43804893370 /* Pods-MinutesTaker.debug.xcconfig */,
+				5DC535A947F110D299928EF0 /* Pods-MinutesTaker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +314,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40CCA7DB1E7FBE4300F7E4C2 /* Build configuration list for PBXNativeTarget "MinutesTaker" */;
 			buildPhases = (
+				9CE0DEDC2524530C89232036 /* [CP] Check Pods Manifest.lock */,
 				40CCA7AC1E7FBE4300F7E4C2 /* Sources */,
 				40CCA7AD1E7FBE4300F7E4C2 /* Frameworks */,
 				40CCA7AE1E7FBE4300F7E4C2 /* Resources */,
+				0A4AC3B4F23C462E4D395A18 /* [CP] Embed Pods Frameworks */,
+				08276291D17793D54762C4E1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,7 +378,8 @@
 				TargetAttributes = {
 					40CCA7AF1E7FBE4300F7E4C2 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = KAU7C99GR4;
+						DevelopmentTeam = E5BGBX4YJW;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					40CCA7C61E7FBE4300F7E4C2 = {
@@ -239,8 +422,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				40CCA7C11E7FBE4300F7E4C2 /* LaunchScreen.storyboard in Resources */,
+				40628B0E1E939CA80043ED4D /* GoogleService-Info.plist in Resources */,
+				4037CB6C1EBF04C10085EEAC /* majalla.ttf in Resources */,
 				40CCA7BE1E7FBE4300F7E4C2 /* Assets.xcassets in Resources */,
+				407E2E5E1EB884EE0072E681 /* DecoType-Naskh-Regular.ttf in Resources */,
 				40CCA7B91E7FBE4300F7E4C2 /* Main.storyboard in Resources */,
+				4037CB6A1EBF04BA0085EEAC /* Dubai-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +447,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08276291D17793D54762C4E1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MinutesTaker/Pods-MinutesTaker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0A4AC3B4F23C462E4D395A18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MinutesTaker/Pods-MinutesTaker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CE0DEDC2524530C89232036 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		40CCA7AC1E7FBE4300F7E4C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40F9CAA81E878A1000AC6B2E /* Members.swift in Sources */,
+				402AF27A1E91A424007FC727 /* ActionItemViewController.swift in Sources */,
+				40ACBF621E92E062008E0A89 /* PastMeetingCell.swift in Sources */,
+				40628B051E938BB50043ED4D /* Printer.swift in Sources */,
 				40CCA7BC1E7FBE4300F7E4C2 /* MinutesTaker.xcdatamodeld in Sources */,
-				40CCA7B61E7FBE4300F7E4C2 /* ViewController.swift in Sources */,
+				40628B031E938BB50043ED4D /* CloudPrinter.swift in Sources */,
+				40ACBF5F1E92E02A008E0A89 /* PastMeetingViewController.swift in Sources */,
+				408D0E2B1E90FAFE00745237 /* AgendaViewController.swift in Sources */,
+				40628B041E938BB50043ED4D /* NetworkReachability.swift in Sources */,
+				403BC5FE1EA7568500352976 /* MainViewController.swift in Sources */,
+				404A7B8D1E892C92009BE70B /* CustomRenderer.swift in Sources */,
+				40CCA7B61E7FBE4300F7E4C2 /* SignatureViewController.swift in Sources */,
+				408D0E2E1E90FF4900745237 /* AgendaCell.swift in Sources */,
+				40FCE7F11E92F55E00C360A3 /* PendingMeetingCell.swift in Sources */,
+				40F9CAAA1E878D4800AC6B2E /* Constant.swift in Sources */,
+				400F28851E812E8D00EDE057 /* PersistentManager.swift in Sources */,
+				40FCE7F01E92F55E00C360A3 /* PendingMeetingViewController.swift in Sources */,
+				40369DA51E8BB493009D6327 /* AttendanceViewController.swift in Sources */,
+				400E69261E88EBCE00F6AFA4 /* PDFViewLoaderController.swift in Sources */,
+				40F9CAAC1E8795AB00AC6B2E /* Report.swift in Sources */,
 				40CCA7B41E7FBE4300F7E4C2 /* AppDelegate.swift in Sources */,
+				402AF27B1E91A424007FC727 /* ActionItemCell.swift in Sources */,
+				40369DA71E8BC0BD009D6327 /* AttendanceCell.swift in Sources */,
+				404969B51E921D7F00D29411 /* pdfViewer.swift in Sources */,
+				40DB32491EB077C20027E148 /* PreviewViewController.swift in Sources */,
+				404969B71E921DE900D29411 /* ReviewViewController.swift in Sources */,
+				40FC12C51E8CF20600053E43 /* PresentCell.swift in Sources */,
+				40628B061E938BB50043ED4D /* PrinterViewController.swift in Sources */,
+				400F28871E8140AA00EDE057 /* MeetingTaker.swift in Sources */,
+				40628B0C1E938DE90043ED4D /* Extension.swift in Sources */,
+				40AF6D2F1E82432C00D4C424 /* MeetingCreatorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,27 +680,38 @@
 		};
 		40CCA7DC1E7FBE4300F7E4C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0EA00EA3288D43804893370 /* Pods-MinutesTaker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KAU7C99GR4;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = E5BGBX4YJW;
 				INFOPLIST_FILE = MinutesTaker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ae.shjcoop.MinutesTaker;
+				PRODUCT_BUNDLE_IDENTIFIER = ae.shjcoop.MinutesTakerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MinutesTaker/MinutesTaker-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		40CCA7DD1E7FBE4300F7E4C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DC535A947F110D299928EF0 /* Pods-MinutesTaker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KAU7C99GR4;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = E5BGBX4YJW;
 				INFOPLIST_FILE = MinutesTaker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ae.shjcoop.MinutesTaker;
+				PRODUCT_BUNDLE_IDENTIFIER = ae.shjcoop.MinutesTakerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MinutesTaker/MinutesTaker-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -518,6 +792,7 @@
 				40CCA7DD1E7FBE4300F7E4C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40CCA7DE1E7FBE4300F7E4C2 /* Build configuration list for PBXNativeTarget "MinutesTakerTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +801,7 @@
 				40CCA7E01E7FBE4300F7E4C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40CCA7E11E7FBE4300F7E4C2 /* Build configuration list for PBXNativeTarget "MinutesTakerUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +810,7 @@
 				40CCA7E31E7FBE4300F7E4C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

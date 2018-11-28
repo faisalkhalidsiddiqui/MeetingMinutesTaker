@@ -1,4 +1,44 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16B2555" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ACTIONITEM" representedClassName="ACTIONITEM" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" attributeType="String" syncable="YES"/>
+        <relationship name="meeting" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="MEETING" inverseName="actionitem" inverseEntity="MEETING" syncable="YES"/>
+    </entity>
+    <entity name="AGENDA" representedClassName="AGENDA" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="participants" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" attributeType="String" syncable="YES"/>
+        <relationship name="meeting" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="MEETING" inverseName="agenda" inverseEntity="MEETING" syncable="YES"/>
+    </entity>
+    <entity name="ATTENDANCE" representedClassName="ATTENDANCE" syncable="YES" codeGenerationType="class">
+        <attribute name="isPresent" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="memberID" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" indexed="YES" syncable="YES"/>
+        <attribute name="reason" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="meeting" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="MEETING" inverseName="attendance" inverseEntity="MEETING" syncable="YES"/>
+    </entity>
+    <entity name="MEETING" representedClassName="MEETING" syncable="YES" codeGenerationType="class">
+        <attribute name="actionItemTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="introductoryText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isMeetingEnded" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="title" attributeType="String" syncable="YES"/>
+        <relationship name="actionitem" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="ACTIONITEM" inverseName="meeting" inverseEntity="ACTIONITEM" syncable="YES"/>
+        <relationship name="agenda" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="AGENDA" inverseName="meeting" inverseEntity="AGENDA" syncable="YES"/>
+        <relationship name="attendance" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="ATTENDANCE" inverseName="meeting" inverseEntity="ATTENDANCE" syncable="YES"/>
+        <relationship name="signature" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SIGNATURE" inverseName="meeting" inverseEntity="SIGNATURE" syncable="YES"/>
+    </entity>
+    <entity name="SIGNATURE" representedClassName="SIGNATURE" syncable="YES" codeGenerationType="class">
+        <attribute name="memberID" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" indexed="YES" syncable="YES"/>
+        <attribute name="signature" attributeType="Binary" syncable="YES"/>
+        <relationship name="meeting" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="MEETING" inverseName="signature" inverseEntity="MEETING" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ACTIONITEM" positionX="-18" positionY="27" width="128" height="90"/>
+        <element name="AGENDA" positionX="-36" positionY="9" width="128" height="105"/>
+        <element name="ATTENDANCE" positionX="0" positionY="45" width="128" height="105"/>
+        <element name="MEETING" positionX="-63" positionY="-18" width="128" height="195"/>
+        <element name="SIGNATURE" positionX="-54" positionY="-9" width="128" height="90"/>
+    </elements>
 </model>
